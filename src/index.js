@@ -1,6 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import "./index.css";
+
+const root = createRoot(document.getElementById("root"));
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
@@ -12,7 +14,7 @@ import {
   MyPortfolio,
 } from "./components";
 
-ReactDOM.render(
+root.render(
   <React.StrictMode>
   <Router basename={process.env.PUBLIC_URL}>
     <Routes>
@@ -24,6 +26,5 @@ ReactDOM.render(
       <Route path="/myportfolio" element={<MyPortfolio />} />
     </Routes>
   </Router>
-  </React.StrictMode>,
-  document.getElementById("root")
+  </React.StrictMode>
 );

@@ -8,12 +8,12 @@ import "../index.css";
 function Home() {
   return (
       
-        <main ID="home">
+        <main id="home">
 
             <Header />
 
             {/* Introduction */}
-            <section className="intro" id="home">
+            <section className="intro">
                 <h1 className="section__title section__title--intro">
                     Hi, I'm <strong>Elmer Gomez</strong>
                 </h1>
