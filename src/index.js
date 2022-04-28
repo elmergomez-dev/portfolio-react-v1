@@ -17,15 +17,15 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-  <HashRouter>
-    <Routes>
-      <Route index path="/" element={<Home />} />
-      <Route path="/printamerch" element={<Printamerch />} />
-      <Route path="/bookishbay" element={<Bookishbay />} />
-      <Route path="/downloadtoprint" element={<Downloadtoprint />} />
-      <Route path="/moreprojects" element={<MoreProjects />} />
-      <Route path="/myportfolio" element={<MyPortfolio />} />
-    </Routes>
-  </HashRouter>
+    <Router>
+      <Routes>
+        <Route index path="/" element={<Home />} />
+        <Route path="/printamerch" element={<Printamerch />} />
+        <Route path="/bookishbay" element={<Bookishbay />} />
+        <Route path="/downloadtoprint" element={<Downloadtoprint />} />
+        <Route path="/moreprojects" element={<MoreProjects />} />
+        <Route path="/myportfolio" element={<MyPortfolio />} />
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
