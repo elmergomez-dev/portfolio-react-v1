@@ -17,7 +17,7 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-  <HashRouter basename="/#">
+  <HashRouter>
     <Routes>
       <Route index path="/" element={<Home />} />
       <Route path="/printamerch" element={<Printamerch />} />
