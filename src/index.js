@@ -1,9 +1,5 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import "./index.css";
-
-const root = createRoot(document.getElementById("root"));
-
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
   Home,
@@ -13,6 +9,11 @@ import {
   MoreProjects,
   MyPortfolio,
 } from "./components";
+
+import "./index.css";
+
+const container = document.getElementById("root");
+const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
