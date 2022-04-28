@@ -16,7 +16,7 @@ function Home() {
                     Hi, I'm <strong>Elmer Gomez</strong>
                 </h1>
                 <p className="section__subtitle section__subtitle--intro">Front-End Web Developer</p>
-                <img className="intro__img img__profile" src="/images/elmer-gomez.jpeg" alt="picture of Elmer Gomez smiling" />
+                <img className="intro__img img__profile" src="images/elmer-gomez.jpeg" alt="picture of Elmer Gomez smiling" />
             </section>
 
             {/* My Skills */}

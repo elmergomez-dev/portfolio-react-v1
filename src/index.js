@@ -17,9 +17,9 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-    <Router basename="/home">
+    <Router>
       <Routes>
-        <Route index path="/" element={<Home />} />
+        <Route index element={<Home />} />
         <Route path="/printamerch" element={<Printamerch />} />
         <Route path="/bookishbay" element={<Bookishbay />} />
         <Route path="/downloadtoprint" element={<Downloadtoprint />} />
