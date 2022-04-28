@@ -27,7 +27,7 @@ function MyPortfolio() {
                     <div className="project__sub-title">My Developer Portfolio</div>
                 </h1>
                 <p className="project__sub-title--strip">React / JSX / CSS3</p>
-                <img src="../images/portfolio-04.jpg" alt="" className="intro__img" />
+                <img src={process.env.PUBLIC_URL + "/images/portfolio-04.jpg"} alt="" className="intro__img" />
             </section>
 
             {/* Project details */}

@@ -25,7 +25,7 @@ function Bookishbay() {
                 <div className="project__sub-title">Literary Book Blog</div>
             </h1>
             <p className="project__sub-title--strip">WordPress / Bootstrap / jQuery</p>
-            <img src="../images/portfolio-02.jpg" alt="" className="intro__img" />
+            <img src={process.env.PUBLIC_URL + "/images/portfolio-02.jpg"} alt="" className="intro__img" />
         </section>
 
         {/* Project details */}
@@ -59,7 +59,7 @@ function Bookishbay() {
                     </p>
                     <p>This blog site aims to build a community of readers, of the literary fiction genre in particular.
                     </p>
-                    <img className="project__image" src="images/bookishbay-feature-01.jpg" />
+                    <img className="project__image" src={process.env.PUBLIC_URL + "/images/bookishbay-feature-01.jpg"} />
                 </div>
                 <div className="proj-details__header" id="features">Features &amp; Functionalities</div>
                 <div className="proj-details__text">
@@ -71,13 +71,13 @@ function Bookishbay() {
                         the specific design that the customer chose is sent to the printer automatically, then the 
                         printer ships the finished merchandise directly to the customer.
                     </p>
-                    <img className="project__image" src="images/bookishbay-feature-02.jpg" />
+                    <img className="project__image" src={process.env.PUBLIC_URL + "/images/bookishbay-feature-02.jpg"} />
                 </div>
                 <div className="proj-details__header" id="tools">Tools Used &amp; Explanation</div>
                 <div className="proj-details__text">
                     <p>This website was built in WordPress and uses the WooCommerce plugin for its print-on-demand 
                         store. 
-                        <img className="project__image" src="images/bookishbay-feature-03.jpg" />
+                        <img className="project__image" src={process.env.PUBLIC_URL + "/images/bookishbay-feature-03.jpg"} />
                     </p>
                     <p>A few enhancements were made to the free theme, such as the creation of login page 
                         and password recovery, putting up a subscription box for the newsletter, enhancement of the 

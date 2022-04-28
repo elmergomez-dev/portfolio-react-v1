@@ -25,7 +25,7 @@ function Downloadtoprint() {
                 <div className="project__sub-title">Digital Download Site</div>
             </h1>
             <p className="project__sub-title--strip">WordPress / Bootstrap / jQuery</p>
-            <img src="../images/portfolio-03.jpg" alt="" className="intro__img" />
+            <img src={process.env.PUBLIC_URL + "/images/portfolio-03.jpg"} alt="" className="intro__img" />
         </section>
 
         {/* Project details */}
@@ -61,7 +61,7 @@ function Downloadtoprint() {
                         aims to generate passive income because the files can be sold indefinitely without maintaining 
                         physical inventory.
                     </p>
-                    <img className="project__image" src="images/downloadtoprint-feature-01.jpg" />
+                    <img className="project__image" src={process.env.PUBLIC_URL + "/images/downloadtoprint-feature-01.jpg"} />
                 </div>
                 <div className="proj-details__header" id="features">Features &amp; Functionalities</div>
                 <div className="proj-details__text">
@@ -72,7 +72,7 @@ function Downloadtoprint() {
                     <p>The customer needs to register with the same email address used when they purchased the file so that the download link
                         can be made available in the customer's dashboard together with their purchase history.
                     </p>
-                    <img className="project__image" src="images/downloadtoprint-feature-02.jpg" />
+                    <img className="project__image" src={process.env.PUBLIC_URL + "/images/downloadtoprint-feature-02.jpg"} />
                 </div>
                 <div className="proj-details__header" id="tools">Tools Used &amp; Explanation</div>
                 <div className="proj-details__text">

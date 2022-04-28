@@ -405,7 +405,7 @@ transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
 
 .my-services {
     background-color: darkgray;
-    background-image: url(images/background-what-i-do.jpg);
+    background-image: url(../public/images/background-what-i-do.jpg);
     background-size: cover;
     background-blend-mode: multiply;
     color: var(--clr-light);
@@ -582,7 +582,7 @@ transition: transform 250ms cubic-bezier(.5, 0, .5, 1);
 
 .footer {
     background: #111;
-    background-image: url(images/background-my-recent-projects.jpg);
+    background-image: url(../public/images/background-my-recent-projects.jpg);
     background-size: cover;
     color: var(--clr-accent);
     text-align: center;

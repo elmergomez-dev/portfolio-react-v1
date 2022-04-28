@@ -26,7 +26,7 @@ function Printamerch() {
                     <div className="project__sub-title">E-Commerce Site</div>
                 </h1>
                 <p className="project__sub-title--strip">Liquid / Bootstrap / jQuery</p>
-                <img src="../images/portfolio-01.jpg" alt="" className="intro__img" />
+                <img src={process.env.PUBLIC_URL + "/images/portfolio-01.jpg"} alt="" className="intro__img" />
             </section>
 
             {/* Project details */}
@@ -63,7 +63,7 @@ function Printamerch() {
                             printed on the merchandise automatically when a customer places an order. Customers can 
                             also send in their own designs to be printed on the product they choose.
                         </p>
-                        <img className="project__image" src="images/printamerch-feature-01.jpg" />
+                        <img className="project__image" src={process.env.PUBLIC_URL + "/images/printamerch-feature-01.jpg"} />
                     </div>
                     <div className="proj-details__header" id="features">Features &amp; Functionalities</div>
                     <div className="proj-details__text">
@@ -76,7 +76,7 @@ function Printamerch() {
                             on the chosen merchandise. Checking out the product sends the design file to a third-party
                             printer, who then ships the finished product directly to the customer.
                         </p>
-                        <img className="project__image" src="images/printamerch-feature-02.jpg" />
+                        <img className="project__image" src={process.env.PUBLIC_URL + "/images/printamerch-feature-02.jpg"} />
                     </div>
                     <div className="proj-details__header" id="tools">Tools Used &amp; Explanation</div>
                     <div className="proj-details__text">
@@ -85,7 +85,7 @@ function Printamerch() {
                             and added Javascript codes to add functionalities like filtering products 
                             and blog posts by tags and displaying throbber overlay when the page reloads.
                         </p>
-                        <img className="project__image" src="images/printamerch-feature-03.jpg" />
+                        <img className="project__image" src={process.env.PUBLIC_URL + "/images/printamerch-feature-03.jpg"} />
                         <p>With the help of a few plugins, I implemented the functionalities I wanted the 
                             store to have, such as the carousel on the homepage, image and video galleries, newsletter 
                             subscription, an improved wishlist, and integration of a payment gateway.

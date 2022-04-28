@@ -16,7 +16,7 @@ function Home() {
                     Hi, I'm <strong>Elmer Gomez</strong>
                 </h1>
                 <p className="section__subtitle section__subtitle--intro">Front-End Web Developer</p>
-                <img className="intro__img img__profile" src="../src/images/elmer-gomez.jpeg" alt="picture of Elmer Gomez smiling" />
+                <img className="intro__img img__profile" src={process.env.PUBLIC_URL + "/images/elmer-gomez.jpeg"} alt="picture of Elmer Gomez smiling" />
             </section>
 
             {/* My Skills */}
@@ -25,7 +25,7 @@ function Home() {
                 <h2 className="section__title section__title--services">What I do</h2>
                 <div className="services">
                     <div className="service service-1">
-                        <img className="img__icon" src="../src/images/design-devt.jpg" alt="" />
+                        <img className="img__icon" src={process.env.PUBLIC_URL + "/images/design-devt.jpg"} alt="" />
                         <h3>Design + Development</h3>
                         <p>I strive to blend the best of both 
                             worlds: efficient functionality and beautiful design. Writing clean code and creating 
@@ -34,7 +34,7 @@ function Home() {
                     </div> {/* / service */}
                     
                     <div className="service service-2">
-                        <img className="img__icon" src="../src/images/e-commerce.jpg" alt="" />
+                        <img className="img__icon" src={process.env.PUBLIC_URL + "/images/e-commerce.jpg"} alt="" />
                         <h3>E-Commerce</h3>
                         <p>I have practical experience with e-commerce and have developed projects from the ground up. 
                         I create online stores that are not only good to look at, but are efficient under the hood.
@@ -42,7 +42,7 @@ function Home() {
                     </div> {/* / service */}
                     
                     <div className="service service-3">
-                        <img className="img__icon" src="../src/images/wordpress-shopify.jpg" alt="" />
+                        <img className="img__icon" src={process.env.PUBLIC_URL + "/images/wordpress-shopify.jpg"} alt="" />
                         <h3>WordPress + Shopify</h3>
                         <p>Currently, I utilize the WordPress CMS to 
                             quickly develop professional-looking websites and the Shopify platform to develop a complete solution for an online store.
@@ -72,7 +72,7 @@ function Home() {
                 </p>
             </div>
             
-            <img src="../src/images/elmer-gomez-half-body.jpg" alt="Elmer Gomez standing in front of murals" className="about-me__img" />
+            <img src={process.env.PUBLIC_URL + "/images/elmer-gomez-half-body.jpg"} alt="Elmer Gomez standing in front of murals" className="about-me__img" />
             </section>
 
             {/* My recent projects */}
@@ -82,17 +82,17 @@ function Home() {
                 <div className="portfolio">
                     {/* Portfolio item 01 */}
                     <Link to="/printamerch" className="portfolio__item">
-                        <img src="../src/images/portfolio-01.jpg" alt="" className="portfolio__img" />
+                        <img src={process.env.PUBLIC_URL + "/images/portfolio-01.jpg"} alt="" className="portfolio__img" />
                     </Link>
                     
                     {/* Portfolio item 02 */}
                     <Link to="/bookishbay" className="portfolio__item">
-                        <img src="../src/images/portfolio-02.jpg" alt="" className="portfolio__img" />
+                        <img src={process.env.PUBLIC_URL + "/images/portfolio-02.jpg"} alt="" className="portfolio__img" />
                     </Link>
                     
                     {/* Portfolio item 03 */}
                     <Link to="/downloadtoprint" className="portfolio__item">
-                        <img src="../src/images/portfolio-03.jpg" alt="" className="portfolio__img" />
+                        <img src={process.env.PUBLIC_URL + "/images/portfolio-03.jpg"} alt="" className="portfolio__img" />
                     </Link>
                 </div>
                 <div className="label-tag">

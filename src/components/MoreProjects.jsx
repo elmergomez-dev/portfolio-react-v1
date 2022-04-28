@@ -25,18 +25,14 @@ function MoreProjects() {
             <div className="portfolio">
                 {/* Portfolio item 04 */}
                 <Link to="/myportfolio" className="portfolio__item">
-                    <img src="images/portfolio-04.jpg" alt="" className="portfolio__img" />
+                    <img src={process.env.PUBLIC_URL + "/images/portfolio-04.jpg"} alt="" className="portfolio__img" />
                 </Link>
                 
                 {/* Portfolio item 02 */}
-                <Link style={{backgroundColor: "transparent"}} to="/bookishbay" className="portfolio__item">
-                    <img style={{visibility: "hidden"}} src="images/portfolio-02.jpg" alt="" className="portfolio__img" />
-                </Link>
+                <div>&nbsp;</div>
                 
                 {/* Portfolio item 03 */}
-                <Link style={{backgroundColor: "transparent"}} to="/downloadtoprint" className="portfolio__item">
-                    <img style={{visibility: "hidden"}} src="images/portfolio-03.jpg" alt="" className="portfolio__img" />
-                </Link>
+                <div>&nbsp;</div>
             </div>
         </section>   
 
