@@ -17,7 +17,7 @@ const root = createRoot(container);
 
 root.render(
   <React.StrictMode>
-  <Router basename="/#">
+  <HashRouter basename="/#">
     <Routes>
       <Route index path="/" element={<Home />} />
       <Route path="/printamerch" element={<Printamerch />} />
@@ -26,6 +26,6 @@ root.render(
       <Route path="/moreprojects" element={<MoreProjects />} />
       <Route path="/myportfolio" element={<MyPortfolio />} />
     </Routes>
-  </Router>
+  </HashRouter>
   </React.StrictMode>
 );
