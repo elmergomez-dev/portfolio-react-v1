@@ -13,7 +13,8 @@ import {
 } from "./components";
 
 ReactDOM.render(
-  <Router>
+  <React.StrictMode>
+  <Router basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/printamerch" element={<Printamerch />} />
@@ -22,6 +23,7 @@ ReactDOM.render(
       <Route path="/moreprojects" element={<MoreProjects />} />
       <Route path="/myportfolio" element={<MyPortfolio />} />
     </Routes>
-  </Router>,
+  </Router>
+  </React.StrictMode>,
   document.getElementById("root")
 );
