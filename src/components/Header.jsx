@@ -15,7 +15,7 @@ function Header() {
   return (
     <header className="header-nav">
         <div className="resume-button">
-            <a href="/">Download My Resume</a>
+            <a href="mailto:elmergomez@gmail.com">Resume available upon request</a>
         </div>
         <button className="nav-toggle" aria-label="toggle navigation" onClick={()=>{openMenu()}}>
             <span className="hamburger"></span>
