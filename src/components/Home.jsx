@@ -16,7 +16,7 @@ function Home() {
                     Hi, I'm <strong>Elmer Gomez</strong>
                 </h1>
                 <p className="section__subtitle section__subtitle--intro">Front-End Web Developer</p>
-                <img className="intro__img img__profile" src={process.env.PUBLIC_URL + "/images/elmer-gomez.jpeg"} alt="picture of Elmer Gomez smiling" />
+                <img className="intro__img img__profile" src={process.env.PUBLIC_URL + "/images/elmer-gomez.jpeg"} alt="Elmer Gomez smiling" />
             </section>
 
             {/* My Skills */}
@@ -61,15 +61,12 @@ function Home() {
             <p className="section__subtitle section__subtitle--about">Designer & developer based in Quezon City PH</p>
             
             <div className="about-me__body">
-                <p>I am a front-end web developer. Before becoming a programmer, I worked as a graphic designer.
-                </p>
-                <p>I was a technology officer in a government agency before turning independent to jump-start a business. When I 
-                    learned about open source CMS, I used Drupal and Joomla to develop systems and databases during my 
-                    stay there.
-                </p>
-                <p>I'm also a bibliophile. I hoard books in the literary fiction genre. I can usually be found in a coffee shop 
-                    working on my code with a hardback on the side.
-                </p>
+                <p>I am a web developer who builds websites from the ground up — from structure and design to performance and search visibility.</p>
+                <p>Before becoming a developer, I worked as a graphic designer. This background informs how I approach the web: combining visual clarity with clean, functional code.</p>
+                <p>Earlier in my career, I served as a technology officer in a government agency where I managed websites and internal systems. During that time, I worked with open-source CMS platforms such as Drupal and Joomla to develop and maintain web applications and databases.</p>
+                <p>After becoming an independent developer, my work focused primarily on building and optimizing websites using WordPress and modern web technologies.</p>
+                <p>Alongside development, I specialize in search optimization. Every website and article I produce is structured with SEO in mind — including keyword research, content architecture, technical performance, and search indexing.</p>
+                <p>My long-standing interest in books and literary culture also led me to found BookishBay, a publication where I apply both development and SEO strategies to build and grow a content-driven website.</p>
             </div>
             
             <img src={process.env.PUBLIC_URL + "/images/elmer-gomez-half-body.jpg"} alt="Elmer Gomez standing in front of murals" className="about-me__img" />
