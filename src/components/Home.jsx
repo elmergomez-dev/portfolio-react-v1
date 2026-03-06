@@ -55,24 +55,24 @@ function Home() {
                 <a href="#work" className="btn">My work</a>
             </section>
             
-            {/* About me */}
-            <section className="about-me" id="about">
-            <h2 className="section__title section__title--about">Who I am</h2>
-            <p className="section__subtitle section__subtitle--about">Designer & developer based in Quezon City PH</p>
-            
-            <div className="about-me__body">
-                <p>I am a web developer who builds websites from the ground up — from structure and design to performance and search visibility.</p>
-                <p>Before becoming a developer, I worked as a graphic designer. This background informs how I approach the web: combining visual clarity with clean, functional code.</p>
-                <p>Earlier in my career, I served as a technology officer in a government agency where I managed websites and internal systems. During that time, I worked with open-source CMS platforms such as Drupal and Joomla to develop and maintain web applications and databases.</p>
-                <p>After becoming an independent developer, my work focused primarily on building and optimizing websites using WordPress and modern web technologies.</p>
-                <p>Alongside development, I specialize in search optimization. Every website and article I produce is structured with SEO in mind — including keyword research, content architecture, technical performance, and search indexing.</p>
-                <p>My long-standing interest in books and literary culture also led me to found BookishBay, a publication where I apply both development and SEO strategies to build and grow a content-driven website.</p>
-            </div>
-            
-            <img src={process.env.PUBLIC_URL + "/images/elmer-gomez-half-body.jpg"} alt="Elmer Gomez standing in front of murals" className="about-me__img" />
-            </section>
+            /* About me */
+                        <section className="about-me" id="about">
+                        <h2 className="section__title section__title--about">Who I am</h2>
+                        <p className="section__subtitle section__subtitle--about">Designer & developer based in Quezon City PH</p>
+                        
+                        <div className="about-me__body">
+                            <p>I am a web developer who builds websites from the ground up — from structure and design to performance and search visibility.</p>
+                            <p>Before becoming a developer, I worked as a graphic designer. This background informs how I approach the web: combining visual clarity with clean, functional code.</p>
+                            <p>Earlier in my career, I served as a technology officer in a government agency where I managed websites and internal systems. During that time, I worked with open-source CMS platforms such as Drupal and Joomla to develop and maintain web applications and databases.</p>
+                            <p>After becoming an independent developer, my work focused primarily on building and optimizing websites using WordPress and modern web technologies.</p>
+                            <p>Alongside development, I specialize in search optimization. Every website and article I produce is structured with SEO in mind — including keyword research, content architecture, technical performance, and search indexing.</p>
+                            <p>My long-standing interest in books and literary culture also led me to found <a href="https://bookishbay.com" target="_blank" rel="noreferrer">BookishBay.com</a>, a publication where I apply both development and SEO strategies to build and grow a content-driven website.</p>
+                        </div>
+                        
+                        <img src={process.env.PUBLIC_URL + "/images/elmer-gomez-half-body.jpg"} alt="Elmer Gomez standing in front of murals" className="about-me__img" />
+                        </section>
 
-            {/* My recent projects */}
+                        {/* My recent projects */}
             <section className="my-work" id="work">
                 <h2 className="section__title">My recent projects</h2>
                 <p className="section__subtitle section__subtitle--work">A selection of my range of work</p>
